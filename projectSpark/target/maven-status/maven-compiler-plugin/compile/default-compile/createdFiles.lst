@@ -1,0 +1,17 @@
+org/example/deces/functions/parser/beans/Stat$StatBuilder.class
+org/example/deces/functions/parser/beans/Stat.class
+org/example/deces/functions/parser/parser/MapActeDecesToStat.class
+org/example/deces/functions/parser/beans/ActeDeces.class
+org/example/deces/functions/parser/parser/ActeDecesStatFunction.class
+org/example/deces/functions/parser/parser/ReduceFunction.class
+org/example/deces/functions/parser/parser/Counter.class
+org/example/deces/functions/parser/parser/MapFunctionKey.class
+org/example/deces/functions/parser/reader/TextFileReader.class
+org/example/deces/functions/parser/parser/ActeDecesMapper.class
+org/example/deces/functions/parser/writer/TextFileWriter.class
+org/example/deces/functions/parser/parser/FileContentAndStat.class
+org/example/deces/functions/parser/parser/RowToActeDecesFunc.class
+org/example/MainProg.class
+org/example/deces/functions/parser/parser/ActeDecesToKeyFunction.class
+org/example/deces/functions/parser/beans/ActeDeces$ActeDecesBuilder.class
+org/example/deces/functions/parser/parser/GetStatOnFunction.class

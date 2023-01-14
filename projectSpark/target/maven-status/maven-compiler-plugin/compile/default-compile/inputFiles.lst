@@ -1,0 +1,15 @@
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/writer/TextFileWriter.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/reader/TextFileReader.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/GetStatOnFunction.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/ActeDecesStatFunction.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/FileContentAndStat.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/beans/Stat.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/ActeDecesToKeyFunction.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/Counter.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/MapActeDecesToStat.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/beans/ActeDeces.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/ReduceFunction.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/RowToActeDecesFunc.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/ActeDecesMapper.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/MainProg.java
+/home/aziz/Desktop/Spark Jar/projectSpark/src/main/java/org/example/deces/functions/parser/parser/MapFunctionKey.java

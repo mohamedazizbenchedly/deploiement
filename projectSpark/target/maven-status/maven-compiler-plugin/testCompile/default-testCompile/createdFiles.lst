@@ -1,0 +1,5 @@
+org/example/deces/functions/parser/WriterFileTest.class
+org/example/deces/functions/parser/RowToActeDecesFuncTest.class
+org/example/deces/functions/parser/ContentAndStatTest.class
+org/example/deces/functions/parser/ReaderFileTest.class
+org/example/deces/functions/parser/MainTest.class
