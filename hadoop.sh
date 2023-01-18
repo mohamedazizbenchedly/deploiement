@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Specify the main class of your application
+#  the main 
 MAIN_CLASS=org.example.MainProg
 
-# Specify the URL of the YARN resource manager
+#  the URL of the YARN 
 YARN_RM=127.0.0.1:8088
 
 # Submit the application to YARN
