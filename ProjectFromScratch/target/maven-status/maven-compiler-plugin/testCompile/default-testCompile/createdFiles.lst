@@ -1,0 +1,6 @@
+test\unitaires\ReaderTestUnitaire.class
+test\unitaires\KafkaMainTest.class
+test\unitaires\Streaming2MainTest.class
+test\unitaires\HadoopMainTestv2.class
+test\unitaires\RowToPrixTestUnitaire.class
+test\unitaires\MainTest.class

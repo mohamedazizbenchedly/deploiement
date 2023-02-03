@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="test.unitaires.KafkaMainTest" time="3.69" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.2.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.17+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\ben chedly\.jdks\temurin-11.0.17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ben chedly\Desktop\exploitation de données\ProjectFromScratch"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ben chedly\Desktop\exploitation de données\ProjectFromScratch"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.17+8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\BENCHE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\ben chedly\.jdks\temurin-11.0.17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\hadoop-3.2.2\bin;C:\spark-3.1.2-bin-hadoop3.2\bin;C:\spark-3.1.2-bin-hadoop3.2\sbin;C:\hadoop-3.2.2\sbin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\ben chedly\AppData\Local\Microsoft\WindowsApps;C:\Users\ben chedly\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ben chedly\AppData\Roaming\npm;C:\Users\ben chedly\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ben chedly"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="ben chedly"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.3 clean install"/>
+    <property name="java.home" value="C:\Users\ben chedly\.jdks\temurin-11.0.17"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-11.0.17+8"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="test.unitaires.KafkaMainTest" name="test" time="3.69">
+    <error message="Task not serializable" type="org.apache.spark.SparkException">org.apache.spark.SparkException: Task not serializable
+	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:444)
+	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:416)
+	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:163)
+	at org.apache.spark.SparkContext.clean(SparkContext.scala:2491)
+	at org.apache.spark.streaming.dstream.DStream.$anonfun$map$1(DStream.scala:548)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.SparkContext.withScope(SparkContext.scala:806)
+	at org.apache.spark.streaming.StreamingContext.withScope(StreamingContext.scala:264)
+	at org.apache.spark.streaming.dstream.DStream.map(DStream.scala:548)
+	at org.apache.spark.streaming.api.java.JavaDStreamLike.map(JavaDStreamLike.scala:157)
+	at org.apache.spark.streaming.api.java.JavaDStreamLike.map$(JavaDStreamLike.scala:156)
+	at org.apache.spark.streaming.api.java.AbstractJavaDStreamLike.map(JavaDStreamLike.scala:42)
+	at Application.prix.reader.KafkaReceiver.get(KafkaReceiver.java:49)
+	at Application.prix.KafkaMain.lambda$main$a7958ba$1(KafkaMain.java:64)
+	at org.apache.spark.streaming.api.java.JavaStreamingContext$.$anonfun$getOrCreate$2(JavaStreamingContext.scala:650)
+	at scala.Option.getOrElse(Option.scala:201)
+	at org.apache.spark.streaming.StreamingContext$.getOrCreate(StreamingContext.scala:841)
+	at org.apache.spark.streaming.api.java.JavaStreamingContext$.getOrCreate(JavaStreamingContext.scala:649)
+	at org.apache.spark.streaming.api.java.JavaStreamingContext.getOrCreate(JavaStreamingContext.scala)
+	at Application.prix.KafkaMain.main(KafkaMain.java:53)
+	at test.unitaires.KafkaMainTest.test(KafkaMainTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.io.NotSerializableException: Application.prix.functions.TextToPrix
+Serialization stack:
+	- object not serializable (class: Application.prix.functions.TextToPrix, value: Application.prix.functions.TextToPrix@73e1ecd0)
+	- element of array (index: 0)
+	- array (class [Ljava.lang.Object;, size 1)
+	- field (class: java.lang.invoke.SerializedLambda, name: capturedArgs, type: class [Ljava.lang.Object;)
+	- object (class java.lang.invoke.SerializedLambda, SerializedLambda[capturingClass=class Application.prix.reader.KafkaReceiver, functionalInterfaceMethod=org/apache/spark/api/java/function/Function.call:(Ljava/lang/Object;)Ljava/lang/Object;, implementation=invokeVirtual Application/prix/functions/TextToPrix.apply:(Ljava/lang/String;)LApplication/prix/beans/Prix;, instantiatedMethodType=(Ljava/lang/String;)LApplication/prix/beans/Prix;, numCaptured=1])
+	- writeReplace data (class: java.lang.invoke.SerializedLambda)
+	- object (class Application.prix.reader.KafkaReceiver$$Lambda$973/0x00000008007ce840, Application.prix.reader.KafkaReceiver$$Lambda$973/0x00000008007ce840@781654f8)
+	- element of array (index: 0)
+	- array (class [Ljava.lang.Object;, size 1)
+	- field (class: java.lang.invoke.SerializedLambda, name: capturedArgs, type: class [Ljava.lang.Object;)
+	- object (class java.lang.invoke.SerializedLambda, SerializedLambda[capturingClass=class org.apache.spark.api.java.JavaPairRDD$, functionalInterfaceMethod=scala/Function1.apply:(Ljava/lang/Object;)Ljava/lang/Object;, implementation=invokeStatic org/apache/spark/api/java/JavaPairRDD$.$anonfun$toScalaFunction$1:(Lorg/apache/spark/api/java/function/Function;Ljava/lang/Object;)Ljava/lang/Object;, instantiatedMethodType=(Ljava/lang/Object;)Ljava/lang/Object;, numCaptured=1])
+	- writeReplace data (class: java.lang.invoke.SerializedLambda)
+	- object (class org.apache.spark.api.java.JavaPairRDD$$$Lambda$958/0x00000008007be040, org.apache.spark.api.java.JavaPairRDD$$$Lambda$958/0x00000008007be040@3ca3648)
+	at org.apache.spark.serializer.SerializationDebugger$.improveException(SerializationDebugger.scala:41)
+	at org.apache.spark.serializer.JavaSerializationStream.writeObject(JavaSerializer.scala:49)
+	at org.apache.spark.serializer.JavaSerializerInstance.serialize(JavaSerializer.scala:115)
+	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:441)
+	... 50 more
+</error>
+    <system-out>23/02/02 19:25:52 INFO SparkContext: Running Spark version 3.3.1
+23/02/02 19:25:52 INFO ResourceUtils: ==============================================================
+23/02/02 19:25:52 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/02/02 19:25:52 INFO ResourceUtils: ==============================================================
+23/02/02 19:25:52 INFO SparkContext: Submitted application: fromScratch
+23/02/02 19:25:52 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -&gt; name: cores, amount: 1, script: , vendor: , memory -&gt; name: memory, amount: 1024, script: , vendor: , offHeap -&gt; name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -&gt; name: cpus, amount: 1.0)
+23/02/02 19:25:52 INFO ResourceProfile: Limiting resource is cpu
+23/02/02 19:25:52 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/02/02 19:25:53 INFO SecurityManager: Changing view acls to: ben chedly
+23/02/02 19:25:53 INFO SecurityManager: Changing modify acls to: ben chedly
+23/02/02 19:25:53 INFO SecurityManager: Changing view acls groups to: 
+23/02/02 19:25:53 INFO SecurityManager: Changing modify acls groups to: 
+23/02/02 19:25:53 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ben chedly); groups with view permissions: Set(); users  with modify permissions: Set(ben chedly); groups with modify permissions: Set()
+23/02/02 19:25:54 INFO Utils: Successfully started service &apos;sparkDriver&apos; on port 54575.
+23/02/02 19:25:54 INFO SparkEnv: Registering MapOutputTracker
+23/02/02 19:25:54 INFO SparkEnv: Registering BlockManagerMaster
+23/02/02 19:25:54 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/02/02 19:25:54 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/02/02 19:25:54 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/02/02 19:25:54 INFO DiskBlockManager: Created local directory at C:\Users\ben chedly\AppData\Local\Temp\blockmgr-235c2400-e0ef-4532-b2a8-8b8cf585d270
+23/02/02 19:25:54 INFO MemoryStore: MemoryStore started with capacity 2.8 GiB
+23/02/02 19:25:54 INFO SparkEnv: Registering OutputCommitCoordinator
+23/02/02 19:25:54 INFO Utils: Successfully started service &apos;SparkUI&apos; on port 4040.
+23/02/02 19:25:54 INFO Executor: Starting executor ID driver on host LAPTOP-1AVO474G.mshome.net
+23/02/02 19:25:54 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): &apos;&apos;
+23/02/02 19:25:54 INFO Utils: Successfully started service &apos;org.apache.spark.network.netty.NettyBlockTransferService&apos; on port 54598.
+23/02/02 19:25:54 INFO NettyBlockTransferService: Server created on LAPTOP-1AVO474G.mshome.net:54598
+23/02/02 19:25:54 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/02 19:25:54 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, LAPTOP-1AVO474G.mshome.net, 54598, None)
+23/02/02 19:25:54 INFO BlockManagerMasterEndpoint: Registering block manager LAPTOP-1AVO474G.mshome.net:54598 with 2.8 GiB RAM, BlockManagerId(driver, LAPTOP-1AVO474G.mshome.net, 54598, None)
+23/02/02 19:25:54 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, LAPTOP-1AVO474G.mshome.net, 54598, None)
+23/02/02 19:25:54 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, LAPTOP-1AVO474G.mshome.net, 54598, None)
+23/02/02 19:25:55 INFO KafkaMain: fileSystem got from sparkSession in the main : hdfs.getScheme = file
+23/02/02 19:25:55 WARN Checkpoint: Checkpoint directory target/test-classes/data/checkpoint does not exist
+23/02/02 19:25:55 WARN KafkaUtils: overriding enable.auto.commit to false for executor
+23/02/02 19:25:55 WARN KafkaUtils: overriding auto.offset.reset to none for executor
+23/02/02 19:25:55 WARN KafkaUtils: overriding executor group.id to spark-executor-spark-kafka-integ
+23/02/02 19:25:55 WARN KafkaUtils: overriding receive.buffer.bytes to 65536 see KAFKA-3135
+</system-out>
+    <system-err>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/ben%20chedly/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.2/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/ben%20chedly/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/ben%20chedly/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Using Spark&apos;s default log4j profile: org/apache/spark/log4j2-defaults.properties
+</system-err>
+  </testcase>
+</testsuite>
